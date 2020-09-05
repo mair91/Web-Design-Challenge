@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Navigation Bar-->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">Latitude</a>
+    <!-- Latitude Top Left Button-->
+          <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <!-- Top Right Menu Options -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humid.html">Humidity</a>
+                  <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                  <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+    
+            </ul>
+          </div>
+        </nav>
+      </div>
+  <!-- Main -->
+  <div class="container">
+    <div class="row">
+      <div>
+        <div class="box">
+          <h4 class="main-title">Comparison: Latitude vs Analysis Variables</Var></h3>
+          <hr>
+          <p>Click each graph for more details.</p>
+          <div class="container" style="padding-bottom: 30px;">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 20px;">
+                <div class="title">Latitude vs. Max Temperature</div>
+                <a href="maxtemp.html">
+                  <img class="visualization" src="Assets/images/Fig1.png" alt="Maximum Temperature IMG">
+                </a>
+              </div>
+              <div class="col-lg-6" style="padding: 20px;">
+                <div class="title">Latitude vs. Humidity</div>
+                <a href="humid.html">
+                  <img class="visualization" src="Assets/images/Fig2.png" alt="Humidity IMG">
+                </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6" style="padding: 20px;">
+                <div class="title">Latitude vs. Cloudiness</div>
+                <a href="cloud.html">
+                  <img class="visualization" src="Assets/images/Fig3.png" alt="Cloudiness IMG">
+                </a>
+
+              </div>
+              <div class="col-lg-6" style="padding: 20px;">
+                <div class="title">Latitude vs. Wind Speed</div>
+                <a href="wind.html">
+                  <img class="visualization" src="Assets/images/Fig4.png" alt="Wind Speed IMG">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer">Web Design Challenge - Mario Ibarra</div>
+</footer>
+</body>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</html>
